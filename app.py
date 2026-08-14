@@ -1,7 +1,8 @@
 import requests
 import streamlit as st
 
-API_URL = "http://localhost:8080/leaderboard"
+# API_URL = "http://localhost:8080/leaderboard"
+API_URL = "https://redis-project-ec14.onrender.com/"
 
 st.set_page_config(page_title="eSports Tournament Engine", page_icon="🎮", layout="centered")
 st.title("🎮 Multi-Tiered Skip List Matchmaking Engine")
