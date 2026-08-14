@@ -8,6 +8,7 @@ import java.net.InetSocketAddress;
 import java.util.List;
 import java.util.Map;
 
+
 public class Server {
     private static final SkipListLeaderboard leaderboard = new SkipListLeaderboard();
 
